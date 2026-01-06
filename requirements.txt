@@ -66,3 +66,4 @@ uvicorn>=0.20.0
 wasabi>=1.1.0
 weasel>=0.3.0
 wrapt>=1.15.0
+xgboost>=1.7.0
