@@ -1,0 +1,66 @@
+Loading data from C:\Users\ASUS-Pc\Documents\LSPU Files\3rd Year\1st Sem\CSST 101\ml_finals\data\raw\job_dataset_hybrid.csv...
+Cleaning data...
+Purifying labels based on skills...
+Applying Strict Whitelist...
+Dropped 9454 rows (Irrelevant Roles).
+Retained 23354 rows (Allowed Tech Roles).
+
+--- Raw Class Counts (Top 20) ---
+normalized_role
+Project Manager           3723
+Software Engineer         3215
+Data Analyst              3206
+Network Engineer          2870
+Web Developer             2795
+Cybersecurity Engineer    1471
+AI Engineer               1390
+UI/UX Designer            1161
+Sales Executive           1146
+Robotics Engineer          512
+Mobile App Developer       447
+DevOps Engineer            384
+Digital Marketer           365
+QA Engineer                218
+Data Engineer              194
+Game Developer             154
+Content Specialist          89
+Multimedia Artist           14
+Name: count, dtype: int64
+
+Applying Perfect Balancing (Target: 1000 per class)...
+
+--- Final Balanced Classes ---
+normalized_role
+AI Engineer               1000
+Content Specialist        1000
+Cybersecurity Engineer    1000
+Data Analyst              1000
+Data Engineer             1000
+DevOps Engineer           1000
+Digital Marketer          1000
+Game Developer            1000
+Mobile App Developer      1000
+Network Engineer          1000
+Project Manager           1000
+QA Engineer               1000
+Robotics Engineer         1000
+Sales Executive           1000
+Software Engineer         1000
+UI/UX Designer            1000
+Web Developer             1000
+Name: count, dtype: int64
+Total Samples: 17000
+Vectorizing skills...
+Splitting data...
+Training Calibrated LinearSVC...
+
+***************************************
+Stabilized Model Accuracy: 71.29%
+***************************************
+
+Classes in model: ['AI Engineer' 'Content Specialist' 'Cybersecurity Engineer'
+ 'Data Analyst' 'Data Engineer' 'DevOps Engineer' 'Digital Marketer'
+ 'Game Developer' 'Mobile App Developer' 'Network Engineer'
+ 'Project Manager' 'QA Engineer' 'Robotics Engineer' 'Sales Executive'
+ 'Software Engineer' 'UI/UX Designer' 'Web Developer']
+Model Saved.

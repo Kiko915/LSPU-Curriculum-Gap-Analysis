@@ -1,0 +1,48 @@
+Loading data from C:\Users\ASUS-Pc\Documents\LSPU Files\3rd Year\1st Sem\CSST 101\ml_finals\data\raw\job_dataset.csv...
+Cleaning data...
+
+--- Initial Class Counts (Top 10) ---
+normalized_role
+Software Engineer       465
+Web Developer            78
+Data Analyst             60
+Data Engineer            40
+QA Engineer              40
+Mobile App Developer     39
+AI Engineer              34
+Copywriter               20
+Content Writer           20
+Graphic Designer         20
+Name: count, dtype: int64
+
+Applying Perfect Balancing (Target: 50 per class)...
+
+--- Final Class Counts (Top 10) ---
+normalized_role
+AI Engineer                50
+Content Writer             50
+Copywriter                 50
+Data Analyst               50
+Data Engineer              50
+Ethical Hacker             50
+Graphic Designer           50
+Market Research Analyst    50
+Mobile App Developer       50
+Operations Manager         50
+Name: count, dtype: int64
+Total Samples: 1000
+Vectorizing skills...
+Splitting data...
+Training Calibrated LinearSVC...
+
+***************************************
+Granular Model Accuracy: 99.50%
+***************************************
+
+Classes in model: ['AI Engineer' 'Content Writer' 'Copywriter' 'Data Analyst'
+ 'Data Engineer' 'Ethical Hacker' 'Graphic Designer'
+ 'Market Research Analyst' 'Mobile App Developer' 'Operations Manager'
+ 'Product Designer' 'Product Manager' 'Project Manager' 'QA Engineer'
+ 'Sales Executive' 'Software Engineer' 'Technical Writer' 'Ui Designer'
+ 'Vibe Coder' 'Web Developer']
+Training Complete. Model Saved.

@@ -1,0 +1,44 @@
+Loading artifacts...
+Artifacts loaded.
+
+--- Vocabulary Check ---
+'arduino': index 495
+'esp32': index 2240
+'microcontroller': index 4034
+'robotics': index 5200
+
+Input: 'arduino esp32 microcontroller'
+Vector shape: (1, 6689)
+Non-zero elements: 4
+Vector data: [0.49946523 0.50017813 0.50017813 0.50017813]
+Vector indices: [ 495  497 2240 4034]
+
+--- Ensemble Breakdown ---
+Number of estimators: 3
+
+Estimator: svc (CalibratedClassifierCV)
+  Prediction: Sales Executive (Confidence: 0.3345)
+    - Sales Executive: 0.3345
+    - Digital Marketer: 0.1458
+    - UI/UX Designer: 0.1020
+
+Estimator: lr (LogisticRegression)
+  Prediction: Sales Executive (Confidence: 0.2094)
+    - Sales Executive: 0.2094
+    - Digital Marketer: 0.1371
+    - Content Specialist: 0.1311
+
+Estimator: xgb (XGBClassifier)
+  Prediction: Sales Executive (Confidence: 0.1955)
+    - Sales Executive: 0.1955
+    - Digital Marketer: 0.1485
+    - Content Specialist: 0.1256
+
+--- Final Ensemble Prediction ---
+Final Role: Sales Executive
+Final Confidence: 0.2571
+  Sales Executive: 0.2571
+  Digital Marketer: 0.1457
+  Content Specialist: 0.1142
+  UI/UX Designer: 0.1056
+  Software Engineer: 0.0619

@@ -1,0 +1,67 @@
+--- AI Brain Inspection ---
+Model and Vectorizer Loaded.
+Total Vocabulary Size: 4493 words
+Number of Classes: 17
+============================================================
+
+Role: MOBILE APP DEVELOPER
+KEYWORD              | WEIGHT (The Math)
+----------------------------------------
+swift                | 1.2179
+curiosity            | 0.9649
+curiosity teamwork   | 0.9649
+swift objective      | 0.8440
+objective            | 0.8440
+kotlin               | 0.7999
+xcode                | 0.7708
+mvvm                 | 0.7211
+android              | 0.6914
+android studio       | 0.6914
+
+Role: NETWORK ENGINEER
+KEYWORD              | WEIGHT (The Math)
+----------------------------------------
+cisco                | 1.3198
+networking           | 1.1030
+vpn                  | 0.8314
+tcp ip               | 0.7501
+ip                   | 0.7501
+tcp                  | 0.7501
+monitoring tools     | 0.7491
+basics monitoring    | 0.7491
+iot basics           | 0.6548
+cisco ios            | 0.6069
+
+Role: PROJECT MANAGER
+KEYWORD              | WEIGHT (The Math)
+----------------------------------------
+project              | 1.2188
+project management   | 0.7099
+ms                   | 0.6605
+ms project           | 0.6605
+management           | 0.6185
+stakeholder          | 0.5887
+strategy ai          | 0.5744
+copywriting editing  | 0.5673
+kpi                  | 0.5468
+stakeholder collaboration | 0.5438
+
+Role: AI ENGINEER
+KEYWORD              | WEIGHT (The Math)
+----------------------------------------
+tensorflow           | 1.1132
+pytorch              | 0.9761
+nlp                  | 0.7631
+learning             | 0.6588
+bigquery snowflake   | 0.6152
+scikit learn         | 0.6127
+learn                | 0.6127
+scikit               | 0.6127
+face                 | 0.5779
+hugging face         | 0.5779
+
+============================================================
+INTERPRETATION:
+These numbers are the 'Brain Weights'.
+A positive number means the word PULLS the prediction towards that role.
+This proves it is doing MATH (Dot Product), not matching IF statements.

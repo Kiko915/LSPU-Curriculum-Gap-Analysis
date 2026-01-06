@@ -1,0 +1,28 @@
+--- Initializing MLPredictor for Stress Test ---
+
+--- Starting Stress Test ---
+
+[TEST: The Hybrid (Design + Code)]
+Input: ['React', 'CSS', 'Figma', 'Photoshop']
+=> Prediction: UI/UX Designer (61.5%)
+----------------------------------------
+[TEST: The Ambiguous (Generic)]
+Input: ['Python', 'SQL', 'Git']
+=> Prediction: Software Engineer (55.3%)
+----------------------------------------
+[TEST: The Niche (QA/Testing)]
+Input: ['Selenium', 'Junit', 'Bug Tracking', 'Jira']
+=> Prediction: QA Engineer (48.6%)
+----------------------------------------
+[TEST: The Minimalist (One Keyword)]
+Input: ['Excel']
+=> Prediction: Data Analyst (68.6%)
+----------------------------------------
+[TEST: The Noisy (Relevant + Irrelevant)]
+Input: ['Python', 'Cooking', 'Swimming', 'Django']
+=> Prediction: AI Engineer (17.3%)
+----------------------------------------
+[TEST: The Managerial]
+Input: ['Leadership', 'Agile', 'Scrum', 'Budgeting']
+=> Prediction: Project Manager (76.3%)
+----------------------------------------

@@ -1,0 +1,15 @@
+Checking Digital Marketer Contamination...
+
+Scanning 855 UI/UX rows for tech keywords...
+  [Contaminated] Equipment Automation Technician - Day shift
+    Keywords found: ['robotics']
+  [Contaminated] Equipment Automation Technician - Day shift
+    Keywords found: ['robotics']
+  [Contaminated] IT Systems Administrator - Classifed Programs - FULL SCOPE POLY CLEARNACE REQUIRED
+    Keywords found: ['python']
+  [Contaminated] Senior Linux Engineer
+    Keywords found: ['python']
+  [Contaminated] Network Engineer (Clearance Required) 
+    Keywords found: ['python']
+
+Total Contaminated Rows Found: 75

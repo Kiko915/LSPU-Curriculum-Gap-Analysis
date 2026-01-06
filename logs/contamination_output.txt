@@ -1,0 +1,15 @@
+Checking Digital Marketer Contamination...
+
+Scanning 641 Digital Marketer/Marketing rows for tech keywords...
+  [Contaminated] Engineers / Marketing / Various
+    Keywords found: ['c++']
+  [Contaminated] Marketing Analytics - Data Scientist Senior Associate
+    Keywords found: ['python']
+  [Contaminated] Senior Analyst IT Business Analytics Retail Marketing
+    Keywords found: ['python']
+  [Contaminated] Senior Data Analyst - Ecommerce & Marketing
+    Keywords found: ['robotics', 'python']
+  [Contaminated] Staff Data Engineer, Marketing Technology
+    Keywords found: ['python']
+
+Total Contaminated Rows Found: 23

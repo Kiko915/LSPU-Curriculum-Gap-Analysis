@@ -1,0 +1,65 @@
+Loading data from C:\Users\ASUS-Pc\Documents\LSPU Files\3rd Year\1st Sem\CSST 101\ml_finals\data\raw\job_dataset.csv...
+Cleaning data...
+Purifying labels based on skills...
+
+--- Raw Class Counts (Top 20) ---
+normalized_role
+Web Developer              183
+Cybersecurity Engineer     131
+UI/UX Designer             100
+AI Engineer                 95
+Data Analyst                82
+QA Engineer                 71
+Mobile App Developer        48
+Software Engineer           44
+Network Engineer            44
+Project Manager             42
+Game Developer              41
+Digital Marketer            39
+DevOps Engineer             29
+Content Specialist          27
+Data Engineer               26
+Robotics Engineer           20
+Sales Executive             20
+Operations Manager          11
+Data Scientist               6
+Market Research Analyst      4
+Name: count, dtype: int64
+
+Applying Perfect Balancing (Target: 50 per class)...
+
+--- Final Balanced Classes ---
+normalized_role
+AI Engineer               50
+Content Specialist        50
+Cybersecurity Engineer    50
+Data Analyst              50
+Data Engineer             50
+DevOps Engineer           50
+Digital Marketer          50
+Game Developer            50
+Mobile App Developer      50
+Network Engineer          50
+Project Manager           50
+QA Engineer               50
+Robotics Engineer         50
+Sales Executive           50
+Software Engineer         50
+UI/UX Designer            50
+Web Developer             50
+Name: count, dtype: int64
+Total Samples: 850
+Vectorizing skills...
+Splitting data...
+Training Calibrated LinearSVC...
+
+***************************************
+Stabilized Model Accuracy: 97.06%
+***************************************
+
+Classes in model: ['AI Engineer' 'Content Specialist' 'Cybersecurity Engineer'
+ 'Data Analyst' 'Data Engineer' 'DevOps Engineer' 'Digital Marketer'
+ 'Game Developer' 'Mobile App Developer' 'Network Engineer'
+ 'Project Manager' 'QA Engineer' 'Robotics Engineer' 'Sales Executive'
+ 'Software Engineer' 'UI/UX Designer' 'Web Developer']
+Model Saved.

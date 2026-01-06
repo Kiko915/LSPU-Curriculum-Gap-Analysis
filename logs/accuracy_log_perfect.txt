@@ -1,0 +1,32 @@
+Loading data from C:\Users\ASUS-Pc\Documents\LSPU Files\3rd Year\1st Sem\CSST 101\ml_finals\data\raw\job_dataset.csv...
+Cleaning data...
+
+--- Initial Class Counts (Top 5) ---
+normalized_role
+Software Engineer    605
+Data Analyst          60
+Data Scientist        40
+QA Engineer           40
+Copywriter            20
+Name: count, dtype: int64
+
+Applying Perfect Balancing (Target: 50 per class)...
+
+--- Final Class Counts (Top 5) ---
+normalized_role
+Content Writer    50
+Copywriter        50
+Data Analyst      50
+Data Engineer     50
+Data Scientist    50
+Name: count, dtype: int64
+Total Samples: 900
+Vectorizing skills...
+Splitting data...
+Training Calibrated LinearSVC...
+
+***************************************
+Perfectly Balanced Model Accuracy: 98.33%
+***************************************
+
+Training Complete. Model Saved.

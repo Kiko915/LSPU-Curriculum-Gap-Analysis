@@ -1,0 +1,26 @@
+
+--- Starting Advanced Model Training (Ensemble Mode) ---
+Loading data from C:\Users\ASUS-Pc\Documents\LSPU Files\3rd Year\1st Sem\CSST 101\ml_finals\data\raw\job_dataset_hybrid.csv...
+Cleaning data...
+Standardizing Roles...
+Applying Strict Whitelist...
+Dropped 9412 rows (Irrelevant Roles).
+Retained 23396 rows (Allowed Tech Roles).
+Vectorizing skills (N-Grams 1-2)...
+Splitting data...
+Applying RandomOverSampler (Balancing Training Data)...
+Original Training Samples: 19886
+Resampled Training Samples: 56754
+Test Samples (Untouched): 3510
+Training Ensemble Model (SVM + Logistic Regression)...
+
+***************************************
+Ensemble Model Accuracy: 76.61%
+***************************************
+
+Classes in model: ['AI Engineer' 'Cloud Architect' 'Content Specialist'
+ 'Cybersecurity Engineer' 'Data Analyst' 'Data Engineer' 'DevOps Engineer'
+ 'Digital Marketer' 'Game Developer' 'Mobile App Developer'
+ 'Network Engineer' 'Project Manager' 'QA Engineer' 'Robotics Engineer'
+ 'Sales Executive' 'Software Engineer' 'UI/UX Designer' 'Web Developer']
+Model Saved.

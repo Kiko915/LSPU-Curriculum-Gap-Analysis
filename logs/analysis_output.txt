@@ -1,0 +1,50 @@
+Analyzing Misclassifications...
+
+--- Detailed Error Analysis ---
+
+Analyzing 'Sales Executive' rows (from original Title)...
+  Heuristic Accuracy: 66.67%
+  Top Confusions:
+Predicted
+Network Engineer          5
+Vibe Coder                3
+Cybersecurity Engineer    1
+Web Developer             1
+Name: count, dtype: int64
+  Example Misclassifications:
+    - Title: R-4686 AT&T Sales Executive Mobility Specialist
+      Skills: go, r, spark, cybersecurity, networking...
+      Predicted: Cybersecurity Engineer
+      ---
+    - Title: Food Waste Solution Specialist (Commodity Sales Executive)
+      Skills: excel...
+      Predicted: Vibe Coder
+      ---
+    - Title: Major Market Sales Executive, Field – Gaithersburg, MD
+      Skills: excel, networking, database...
+      Predicted: Network Engineer
+      ---
+
+Analyzing 'Software Engineer' rows (from original Title)...
+  Heuristic Accuracy: 6.00%
+  Top Confusions:
+Predicted
+Web Developer             36
+Project Manager           14
+Robotics Engineer          8
+Network Engineer           8
+Cybersecurity Engineer     6
+Name: count, dtype: int64
+  Example Misclassifications:
+    - Title: Android Software Engineer, Core and Monetization
+      Skills: java, kotlin...
+      Predicted: Mobile App Developer
+      ---
+    - Title: Software Engineer
+      Skills: python, angular, git, kubernetes, linux, jenkins, ...
+      Predicted: Network Engineer
+      ---
+    - Title: Lead Software Engineer, Back End
+      Skills: python, java, go, sql, node, docker, kubernetes, a...
+      Predicted: Web Developer
+      ---

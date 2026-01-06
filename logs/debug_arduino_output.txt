@@ -1,0 +1,38 @@
+--- Vocabulary Check ---
+'arduino': index 454
+'esp32': index 2031
+'microcontroller': index 3705
+'robotics': index 4782
+'design': index 1734
+'ui': index 5845
+'ux': index 5900
+
+--- Feature Contributions ---
+
+Input: 'arduino'
+  UI/UX Designer: 0.3025
+  Software Engineer: 0.1064
+  Cloud Architect: 0.0913
+  Robotics Engineer: 0.0860
+  Cybersecurity Engineer: 0.0816
+
+Input: 'esp32'
+  UI/UX Designer: 0.3098
+  Software Engineer: 0.1090
+  Cloud Architect: 0.0937
+  Cybersecurity Engineer: 0.0884
+  Business Analyst: 0.0806
+
+Input: 'microcontroller'
+  UI/UX Designer: 0.3098
+  Software Engineer: 0.1090
+  Cloud Architect: 0.0937
+  Cybersecurity Engineer: 0.0884
+  Business Analyst: 0.0806
+
+Input: 'arduino esp32 microcontroller'
+  UI/UX Designer: 0.2455
+  Robotics Engineer: 0.2361
+  Software Engineer: 0.0915
+  Cloud Architect: 0.0736
+  Cybersecurity Engineer: 0.0696

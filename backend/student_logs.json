@@ -1,0 +1,205 @@
+[
+  {
+    "timestamp": "2025-12-22T18:05:08.249842",
+    "predicted_role": "Cybersecurity Engineer",
+    "missing_skills": [
+      "firewall",
+      "penetration testing"
+    ]
+  },
+  {
+    "timestamp": "2025-12-23T22:30:17.409300",
+    "predicted_role": "Cybersecurity Engineer",
+    "missing_skills": [
+      "firewall",
+      "penetration testing"
+    ]
+  },
+  {
+    "timestamp": "2025-12-23T22:34:02.505626",
+    "predicted_role": "Cybersecurity Engineer",
+    "missing_skills": [
+      "firewall",
+      "penetration testing"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T15:59:53.067246",
+    "predicted_role": "Cybersecurity Engineer",
+    "missing_skills": [
+      "firewall",
+      "penetration testing"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T16:06:14.578208",
+    "predicted_role": "Cybersecurity Engineer",
+    "missing_skills": [
+      "firewall",
+      "penetration testing"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T16:16:17.702123",
+    "predicted_role": "AI Engineer",
+    "missing_skills": [
+      "nlp"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T16:17:10.117547",
+    "predicted_role": "AI Engineer",
+    "missing_skills": [
+      "nlp"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T17:00:44.199309",
+    "predicted_role": "Web Developer",
+    "missing_skills": [
+      "git",
+      "api",
+      "node.js",
+      "restful apis",
+      "json"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T17:05:16.121454",
+    "student_name": "Anton",
+    "predicted_role": "Web Developer",
+    "missing_skills": [
+      "json",
+      "api",
+      "restful apis",
+      "node.js",
+      "git"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T17:10:42.085148",
+    "student_name": "Anton",
+    "predicted_role": "Web Developer",
+    "missing_skills": [
+      "json",
+      "git",
+      "restful apis",
+      "node.js"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T17:11:00.235716",
+    "student_name": "Anton",
+    "predicted_role": "Web Developer",
+    "missing_skills": [
+      "json",
+      "git",
+      "restful apis"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T17:21:32.649737",
+    "student_name": "Anton",
+    "predicted_role": "Web Developer",
+    "missing_skills": [
+      "git",
+      "restful apis",
+      "json"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T17:22:22.095846",
+    "student_name": "Anton",
+    "predicted_role": "AI Engineer",
+    "missing_skills": [
+      "nlp"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T17:23:08.180092",
+    "student_name": "Anton",
+    "predicted_role": "Game Developer",
+    "missing_skills": [
+      "3d modeling",
+      "unreal engine",
+      "mathematics"
+    ]
+  },
+  {
+    "timestamp": "2026-01-03T17:29:42.458504",
+    "student_name": "Dheyn Michael",
+    "predicted_role": "AI Engineer",
+    "missing_skills": []
+  },
+  {
+    "timestamp": "2026-01-06T16:28:10.758233",
+    "student_name": "Kaiko",
+    "predicted_role": "Network Engineer",
+    "missing_skills": [
+      "eigrp",
+      "ospf",
+      "routing",
+      "tcp/ip",
+      "switching"
+    ]
+  },
+  {
+    "timestamp": "2026-01-06T16:47:01.769300",
+    "student_name": "Kaiko",
+    "predicted_role": "Network Engineer",
+    "missing_skills": [
+      "routing",
+      "tcp/ip",
+      "troubleshooting",
+      "cisco",
+      "dhcp"
+    ]
+  },
+  {
+    "timestamp": "2026-01-06T16:47:07.026856",
+    "student_name": "Kaiko",
+    "predicted_role": "Mobile App Developer",
+    "missing_skills": [
+      "dart",
+      "firebase",
+      "ios",
+      "swift"
+    ]
+  },
+  {
+    "timestamp": "2026-01-06T17:05:29.179061",
+    "student_name": "Anton",
+    "predicted_role": "AI Engineer",
+    "missing_skills": []
+  },
+  {
+    "timestamp": "2026-01-06T17:08:33.062984",
+    "student_name": "Anton",
+    "predicted_role": "UI/UX Designer",
+    "missing_skills": [
+      "user research",
+      "wireframing"
+    ]
+  },
+  {
+    "timestamp": "2026-01-06T17:13:12.789410",
+    "student_name": "Ian",
+    "predicted_role": "Web Developer",
+    "missing_skills": [
+      "json",
+      "node.js",
+      "restful apis",
+      "git",
+      "api"
+    ]
+  },
+  {
+    "timestamp": "2026-01-06T17:21:41.212947",
+    "student_name": "Anton Ramos",
+    "predicted_role": "UI/UX Designer",
+    "missing_skills": [
+      "wireframing",
+      "user research"
+    ]
+  }
+]

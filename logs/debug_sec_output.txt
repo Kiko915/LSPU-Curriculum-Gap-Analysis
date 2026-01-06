@@ -1,0 +1,14 @@
+--- Vocabulary Check ---
+'kali': index 3378
+'linux': index 3637
+'hacking': NOT IN VOCABULARY
+'penetration': index 4450
+'pen': NOT IN VOCABULARY
+'security': index 5294
+
+--- Prediction Breakdown ---
+UI/UX Designer: 0.2468
+Digital Marketer: 0.1496
+Software Engineer: 0.1354
+DevOps Engineer: 0.0735
+Cybersecurity Engineer: 0.0724

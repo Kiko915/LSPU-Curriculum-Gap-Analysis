@@ -1,0 +1,37 @@
+Loading data from C:\Users\ASUS-Pc\Documents\LSPU Files\3rd Year\1st Sem\CSST 101\ml_finals\data\raw\job_dataset.csv...
+Cleaning data...
+
+--- Initial Class Counts (Top 5) ---
+normalized_role
+Software Engineer    605
+Data Analyst          60
+Data Scientist        40
+QA Engineer           40
+Copywriter            20
+Name: count, dtype: int64
+
+Applying Undersampling (Cap: 100)...
+
+--- Balanced Class Counts (Top 5) ---
+normalized_role
+Software Engineer    100
+Data Analyst          60
+QA Engineer           40
+Data Scientist        40
+Copywriter            20
+Name: count, dtype: int64
+Total Samples: 520
+Vectorizing skills...
+Splitting data...
+Training Calibrated LinearSVC...
+
+***************************************
+Balanced Model Accuracy: 98.08%
+***************************************
+
+Classes in model: ['Content Writer' 'Copywriter' 'Data Analyst' 'Data Engineer'
+ 'Data Scientist' 'Ethical Hacker' 'Graphic Designer'
+ 'Market Research Analyst' 'Operations Manager' 'Product Designer'
+ 'Product Manager' 'Project Manager' 'QA Engineer' 'Sales Executive'
+ 'Software Engineer' 'Technical Writer' 'Ui Designer' 'Vibe Coder']
+Training Complete. Model Saved.

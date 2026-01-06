@@ -1,0 +1,36 @@
+Loading data from C:\Users\ASUS-Pc\Documents\LSPU Files\3rd Year\1st Sem\CSST 101\ml_finals\data\raw\job_dataset.csv...
+Cleaning data...
+Original unique classes: 218
+Normalized unique classes: 59
+
+--- Class Counts (Top 10) ---
+normalized_role
+Software Engineer          605
+Data Analyst                60
+Data Scientist              40
+QA Engineer                 40
+Copywriter                  20
+Data Engineer               20
+Content Writer              20
+Graphic Designer            20
+Market Research Analyst     20
+Ethical Hacker              20
+Name: count, dtype: int64
+
+Filtering classes with < 20 samples...
+Refined unique classes: 18
+Samples remaining: 1025 (dropped 42)
+Vectorizing skills...
+Splitting data (Stratified)...
+Training Calibrated LinearSVC...
+
+***************************************
+New Model Accuracy: 97.56%
+***************************************
+
+Classes in model: ['Content Writer' 'Copywriter' 'Data Analyst' 'Data Engineer'
+ 'Data Scientist' 'Ethical Hacker' 'Graphic Designer'
+ 'Market Research Analyst' 'Operations Manager' 'Product Designer'
+ 'Product Manager' 'Project Manager' 'QA Engineer' 'Sales Executive'
+ 'Software Engineer' 'Technical Writer' 'Ui Designer' 'Vibe Coder']
+Training Complete. Model Saved.

@@ -1,0 +1,46 @@
+--- Testing ML Predictor ---
+Predictor initialized successfully.
+
+Input: ['Python', 'Data Analysis', 'Statistics', 'Machine Learning']
+Predicted Role: AI Engineer
+Confidence: 96.72%
+
+Input: ['Canva', 'Photoshop', 'Illustrator', 'UX Design']
+Predicted Role: UI/UX Designer
+Confidence: 97.06%
+
+Input: ['HTML', 'CSS', 'Javascript']
+Predicted Role: Web Developer
+Confidence: 95.27%
+
+Input: ['Project Management', 'Leadership', 'Communication']
+Predicted Role: Cybersecurity Engineer
+Confidence: 27.40%
+
+Input: ['cisco', 'rj45', 'fiber', 'switch', 'router']
+Predicted Role: Network Engineer
+Confidence: 28.16%
+
+Input: ['React Native', 'Flutter', 'Dart']
+Predicted Role: Mobile App Developer
+Confidence: 97.12%
+
+Input: ['java', 'c++', 'oop', 'software engineering', 'sysadmin']
+Predicted Role: Software Engineer
+Confidence: 24.80%
+
+Input: ['Unity', 'Pygame', 'Unreal Engine']
+Predicted Role: Game Developer
+Confidence: 50.49%
+
+Input: ['Arduino', 'ESP32', 'microcontroller']
+Predicted Role: UI/UX Designer
+Confidence: 24.56%
+
+Input: ['editor', 'content writing', 'copywriting']
+Predicted Role: Project Manager
+Confidence: 20.78%
+
+Input: ['kali linux', 'hacking', 'penetration']
+Predicted Role: Cybersecurity Engineer
+Confidence: 48.97%
