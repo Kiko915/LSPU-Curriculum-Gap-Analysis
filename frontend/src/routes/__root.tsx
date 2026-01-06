@@ -34,12 +34,12 @@ const menuVariants = {
             staggerChildren: 0.1
         }
     }
-}
+} as const
 
 const menuItemVariants = {
     closed: { opacity: 0, y: 20 },
     open: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeInOut" } }
-}
+} as const
 
 function RootComponent() {
     const [isOpen, setIsOpen] = useState(false)

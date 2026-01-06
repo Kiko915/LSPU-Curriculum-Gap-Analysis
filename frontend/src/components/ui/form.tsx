@@ -45,8 +45,7 @@ const useFormField = () => {
     const fieldContext = React.useContext(FormFieldContext)
     const itemContext = React.useContext(FormItemContext)
     const { getFieldState, formState } = useFormContext()
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const _errors = formState.errors
+
 
     const fieldState = getFieldState(fieldContext.name, formState)
 

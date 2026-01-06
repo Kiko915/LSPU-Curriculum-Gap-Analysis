@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, FileText } from 'lucide-react';
+import { FileText } from 'lucide-react';
 import { InteractiveHoverButton } from '@/components/ui/interactive-hover-button';
 import { Meteors } from '@/components/ui/meteors';
 

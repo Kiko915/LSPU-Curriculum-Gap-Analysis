@@ -47,7 +47,7 @@ export function SolutionReveal() {
                     {letters.map((letter, i) => {
                         const step = 0.6 / letters.length;
                         const start = 0.1 + (step * i);
-                        const end = start + step;
+
 
                         // 3D & Pop Animation transforms
                         // We use a sub-range for the "pop" to make it faster than the full step

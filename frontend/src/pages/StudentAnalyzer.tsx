@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { StudentService } from "../services/StudentService";
 import type { RoadmapStep } from "../types/student";
 import { motion, AnimatePresence } from "framer-motion";
